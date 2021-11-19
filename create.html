@@ -7,8 +7,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="CSS/style.css">
-    <!-- <link rel="stylesheet" href="CSS/utilties.css"> -->
-    <title>SomeQuestions</title>
+    <script src="https://kit.fontawesome.com/f0cc2c55e6.js" crossorigin="anonymous"></script>
+    <title>QUIZAPP</title>
 </head>
 <body>
     <header class="hero">
@@ -19,17 +19,30 @@
           <nav>
             <ul>
               <li><a href="index.html">Home</a></li>
-              <li><a href="#create">Create</a></li>
-              <li><a href="#profile">Profile</a></li>
+              <li><a href="create.html">Create</a></li>
+              <li><a href="profile.html">Profile</a></li>
             </ul>
           </nav>
         </div>
       </header>
 
       <main>
-        <div>
-          <input type="tex">
+        <div class="bg-primary Qbox">
+          <textarea name="create" id="create" cols="40" rows="5" placeholder="Add your question hier:"></textarea>
         </div>
+
+        <div class="bg-primary Qbox">
+          <textarea name="create" id="answ" cols="40" rows="10" placeholder="Add your answers hier:"></textarea>
+        </div>
+
+        <div class="bg-primary Qbox">
+          <textarea name="create" id="tags" cols="40" rows="2" placeholder="tags"></textarea>
+        </div>
+
+        <div class="btn-submit">
+        <button type="submit" class="btn-submit">Submit</button>
+      </div>
+
       </main>
 
       <footer class="footer bg-dark hero">
