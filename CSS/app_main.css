@@ -61,10 +61,17 @@ main {
   img {
     width: 100%;
   }
-  .heart {
+
+  .bookmark {
+    color: #fff;
+    font-size: 35px;
     position: absolute;
     right: 10px;
-    top: 1px;
+    top: -20px;
+  }
+
+  .bookmarked {
+    color: red;
   }
   
   input[type = checkbox] {
