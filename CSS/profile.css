@@ -1,0 +1,30 @@
+.profile {
+    color: #fff;
+    margin: 30px;
+  }
+
+  .profile__img {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .profile__img>img {
+    width: 150px;
+    border-radius: 50%; 
+  }
+
+  .profile__img>h2 {
+    padding:  75px;
+  }
+
+  .profile__about {
+margin-bottom: 30px;
+  }
+
+  .profile__skills {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  

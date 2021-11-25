@@ -1,0 +1,93 @@
+/* Text colors */
+.text-primary {
+    color: #28a745;
+  }
+  
+  .text-secondary {
+    color: #0284d0;
+  }
+  
+  /* Button */
+  .btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #333;
+    background-color: rgb(40, 167, 69);
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  .btn-primary,
+  .bg-primary {
+    background: linear-gradient(0deg, rgb(40, 167, 69,1) 0%, rgb(38, 121, 57) 100%);
+    /* background: #28a745; */
+    color: #333;
+  }
+  .bg-primary {
+    padding: 10px;
+  }
+  
+  .btn-secondary,
+  .bg-secondary {
+    background: #0284d0;
+    color: #fff;
+  }
+  
+  .btn-dark,
+  .bg-dark {
+    background: #333;
+    color: #fff;
+    
+  }
+
+  
+  .btn-light,
+  .bg-light {
+      background: #f4f4f4;
+      color: #333;
+  }
+  
+  .btn-outline {
+      background: transparent;
+    border: 1px solid #fff;
+}
+
+.btn-submit { 
+  background-color: var(--main-btn-submit);
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+  position: relative;
+  text-align: center;
+} 
+
+  /* Icons */
+  .icons {
+    padding: 30px;
+}
+  
+  .icons h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .icons i {
+    background-color: #28a745;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  main>button[btn] {
+    text-align: center;
+  }
