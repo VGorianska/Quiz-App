@@ -22,6 +22,8 @@ btns.forEach((button, index) => {
         // } else {
         //     button.innerHTML = '<span>Show Answer</span>'
         // }
-        button.innerText === 'Show Answer' ? 'Hide Answer' : 'Show Answer'
+        // button.innerText = button.innerText === 'Show Answer' ? 'Hide Answer' : 'Show Answer'
+
+        button.innerText === 'Show Answer' ? button.innerText = 'Hide Answer' : button.innerText = 'Show Answer'
     })
 })

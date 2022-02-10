@@ -73,7 +73,7 @@ main {
   .bookmarked {
     color: red;
   }
-  
+
   input[type = checkbox] {
     display: none;
   }
@@ -81,16 +81,16 @@ main {
   input + label {
     cursor: pointer;
   }
-  
-  input + label:after {
-    content: "🤍";
-  }
-  
-  input:checked + label:after {
-    content: "❤️";
+
+  p.hidden {
+    display: none;
   }
 
   /* Icons */
+.fa-solid {
+  color: red;
+}
+
 .icons {
     padding: 30px;
   }
